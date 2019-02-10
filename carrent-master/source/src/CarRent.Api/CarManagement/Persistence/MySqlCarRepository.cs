@@ -32,10 +32,15 @@ namespace CarRent.Api.CarManagement.Persistence
                     int cols = reader.GetValues(dataRow);
                     for (int i = 0; i < cols; i++)
                     {
+                        {
+                            //carlist.Add();
+                        }
+                                               
                         //Objekte in IReadOnlyList abfüllen
-                        
+
+
                     }
-                    
+
                 }
                 reader.Close();
                 return carlist;

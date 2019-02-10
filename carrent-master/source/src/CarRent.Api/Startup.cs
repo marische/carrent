@@ -30,7 +30,8 @@ namespace CarRent.Api
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddLogging(lb => lb.AddConsole());
             services.AddTransient<ICarService, CarService>();
-            services.AddTransient<ICarRepository, MySqlCarRepository>(sp => new MySqlCarRepository(Configuration.GetConnectionString("DefaultConnection")));
+            //services.AddTransient<ICarRepository, MySqlCarRepository>(sp => new MySqlCarRepository(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddTransient<ICarRepository, CarRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

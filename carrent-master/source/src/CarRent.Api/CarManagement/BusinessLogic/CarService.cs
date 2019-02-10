@@ -18,5 +18,6 @@ namespace CarRent.Api.CarManagement.Domain
         {
             return carRepository.GetAll();
         }
+
     }
 }

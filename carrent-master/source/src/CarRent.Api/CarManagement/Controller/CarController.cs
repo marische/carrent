@@ -25,8 +25,14 @@ namespace CarRent.Api.Controllers
         public IEnumerable<CarDto> Get()
         {
             IReadOnlyList<Car> cars = carService.GetAll();
-
-            return cars.Select(c => new CarDto { Brand = c.Brand });
+            return cars.Select(c => new CarDto {
+                Car_id = c.Car_id,
+                Licenseplate = c.Licenseplate,
+                Brand = c.Brand,
+                Model = c.Model,
+                Carclass = c.Carclass,
+                Occupied = c.Occupied
+                });
         }
 
         // GET: api/Car/5
