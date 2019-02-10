@@ -15,7 +15,7 @@ namespace CarRent.Api.CarManagement.Persistence
         {
             //_mySqlConnection = new MySqlConnection(connectionString);
            
-            _mySqlConnection = new MySqlConnection("server=localhost;database=firma;uid=root;password=D3He8Mn%a;");//database noch richtig angeben
+            _mySqlConnection = new MySqlConnection("server=localhost;database=carrent;uid=root;password=D3He8Mn%a;");//database noch richtig angeben
         }
         public IReadOnlyList<Car> GetAll()
         {
@@ -24,7 +24,7 @@ namespace CarRent.Api.CarManagement.Persistence
             using (_mySqlConnection.BeginTransaction())
             {
                 var command = _mySqlConnection.CreateCommand();
-                command.CommandText = "SELECT * FROM cars;";
+                command.CommandText = "SELECT * FROM Car;";
                 var reader = command.ExecuteReader();
                 object[] dataRow = new object[reader.FieldCount];
                 while (reader.Read())
