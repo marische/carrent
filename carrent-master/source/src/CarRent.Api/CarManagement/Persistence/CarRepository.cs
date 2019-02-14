@@ -10,8 +10,8 @@ namespace CarRent.Api.CarManagement.Persistence
     {
         private readonly static IReadOnlyList<Car> inMemoryCars = new List<Car>
         {
-            new Car(1, "AR 42226", "Subaru", "WRX STI", "Sedan"),
-            new Car(2, "AR 42020", "Mitsubishi", "Lancer Evolution", "Sedan")
+            new Car(1, "AR 42226", "Subaru", "WRX STI", 1),
+            new Car(2, "AR 42020", "Mitsubishi", "Lancer Evolution", 1)
         };
 
         public IReadOnlyList<Car> GetAll()

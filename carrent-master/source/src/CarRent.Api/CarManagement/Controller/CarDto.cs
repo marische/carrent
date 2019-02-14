@@ -11,7 +11,7 @@ namespace CarRent.Api.CarManagement.Interface
         public string Licenseplate { get; set; }
         public string Brand { get; set; }
         public string Model { get; set; }
-        public string Carclass { get; set; }
+        public int Carclass { get; set; }
         public bool Occupied { get; set; }
     }
 }

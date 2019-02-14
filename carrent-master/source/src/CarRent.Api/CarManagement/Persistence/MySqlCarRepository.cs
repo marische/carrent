@@ -11,6 +11,12 @@ namespace CarRent.Api.CarManagement.Persistence
     {
         private MySqlConnection _mySqlConnection;
 
+        int car_id;
+        String licenseplate;
+        String brand;
+        String model;
+        int carclass;
+
         public MySqlCarRepository(string connectionString)
         {
             //_mySqlConnection = new MySqlConnection(connectionString);
@@ -19,7 +25,7 @@ namespace CarRent.Api.CarManagement.Persistence
         }
         public IReadOnlyList<Car> GetAll()
         {
-            IReadOnlyList<Car> carlist = new List<Car>();
+            List<Car> carlist = new List<Car>();
             _mySqlConnection.Open();
             using (_mySqlConnection.BeginTransaction())
             {
@@ -32,18 +38,22 @@ namespace CarRent.Api.CarManagement.Persistence
                     int cols = reader.GetValues(dataRow);
                     for (int i = 0; i < cols; i++)
                     {
-                        {
-                            //carlist.Add();
-                        }
-                                               
-                        //Objekte in IReadOnlyList abfüllen
 
-
+                        
+                            car_id = (int)Convert.ToInt32(reader[0]);
+                            licenseplate = reader[1].ToString();
+                            brand = reader[2].ToString();
+                            model = reader[3].ToString();
+                            carclass = Convert.ToInt32(reader[4]);
+                        
+                        
                     }
-
+                    Car c = new Car(car_id, licenseplate, brand, model, carclass); //carclass ist int
+                    carlist.Add(c);
                 }
                 reader.Close();
-                return carlist;
+                IReadOnlyList<Car> readcarlist = carlist;
+                return readcarlist;
 
 
 

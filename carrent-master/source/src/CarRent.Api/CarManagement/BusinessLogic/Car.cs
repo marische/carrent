@@ -11,10 +11,10 @@ namespace CarRent.Api.CarManagement.Domain
         private readonly string licenseplate;
         private readonly string brand;
         private readonly string model;
-        private readonly string carclass;
+        private readonly int carclass;
         private readonly bool occupied;
 
-        public Car(int car_id, string licenseplate, string brand, string model, String carclass)
+        public Car(int car_id, string licenseplate, string brand, string model, int carclass)
         {
             this.car_id = car_id;
             this.licenseplate = licenseplate;
@@ -28,7 +28,7 @@ namespace CarRent.Api.CarManagement.Domain
         public string Licenseplate => licenseplate;
         public string Brand => brand;
         public string Model => model;
-        public string Carclass => carclass;
+        public int Carclass => carclass;
         public bool Occupied => occupied;
     }
 }
