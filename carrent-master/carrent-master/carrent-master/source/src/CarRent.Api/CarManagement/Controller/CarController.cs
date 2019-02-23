@@ -54,10 +54,8 @@ namespace CarRent.Api.Controllers
                 dto[i].Model,
                 dto[i].Carclass
                 );
-
-                MySqlCarRepository sql = new MySqlCarRepository("server=localhost;database=carrent;uid=root;password=PASSWORTEINGEBEN;");
-
-                sql.writeCarIntoDB(car);
+                
+                carService.writeCarIntoDB(car);
             }
         }
 
@@ -83,11 +81,9 @@ namespace CarRent.Api.Controllers
                 dto[i].Carclass
                 );
 
-                MySqlCarRepository sql = new MySqlCarRepository("server=localhost;database=carrent;uid=root;password=PASSWORTEINGEBEN;");
-
-                if (dto[i].Occupied == true)
+                if (dto[i].Occupied == false)
                 {
-                    sql.ReserveCar(car);
+                    carService.ReserveCar(car);
                 }
 
             }

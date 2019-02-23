@@ -36,7 +36,7 @@ CREATE TABLE Car
     ,brand VARCHAR(42) NOT NULL
     ,model VARCHAR(42) NOT NULL
     ,fk_carclass_id INT NOT NULL
-    ,occupied BOOL NOT NULL DEFAULT FALSE
+    ,occupied BOOLEAN NOT NULL DEFAULT FALSE
 
     ,PRIMARY KEY (car_id)
 	,FOREIGN KEY (fk_carclass_id) REFERENCES carclass(carclass_id)

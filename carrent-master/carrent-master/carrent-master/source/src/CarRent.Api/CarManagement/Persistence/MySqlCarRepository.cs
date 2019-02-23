@@ -19,9 +19,7 @@ namespace CarRent.Api.CarManagement.Persistence
 
         public MySqlCarRepository(string connectionString)
         {
-            //_mySqlConnection = new MySqlConnection(connectionString);
-           
-            _mySqlConnection = new MySqlConnection("server=localhost;database=carrent;uid=root;password=PASSWORTEINGEBEN;");//database noch richtig angeben
+            _mySqlConnection = new MySqlConnection(connectionString);
         }
         public IReadOnlyList<Car> GetAll()
         {

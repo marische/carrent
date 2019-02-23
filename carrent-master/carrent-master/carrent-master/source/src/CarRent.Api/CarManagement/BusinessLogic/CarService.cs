@@ -19,5 +19,14 @@ namespace CarRent.Api.CarManagement.Domain
             return carRepository.GetAll();
         }
 
+        public void writeCarIntoDB(Car car)
+        {
+            carRepository.writeCarIntoDB(car);
+        }
+
+        public void ReserveCar(Car car)
+        {
+            carRepository.ReserveCar(car);
+        }
     }
 }

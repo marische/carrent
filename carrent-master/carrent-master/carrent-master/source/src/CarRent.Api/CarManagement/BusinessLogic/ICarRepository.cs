@@ -8,5 +8,7 @@ namespace CarRent.Api.CarManagement.Domain
     public interface ICarRepository
     {
         IReadOnlyList<Car> GetAll();
+        void writeCarIntoDB(Car car);
+        void ReserveCar(Car car);
     }
 }

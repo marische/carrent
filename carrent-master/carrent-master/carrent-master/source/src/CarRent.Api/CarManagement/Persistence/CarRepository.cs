@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarRent.Api.CarManagement.Persistence
 {
-    internal class CarRepository : ICarRepository
+    internal class CarRepository 
     {
         private readonly static IReadOnlyList<Car> inMemoryCars = new List<Car>
         {
