@@ -1538,6 +1538,23 @@
 										},
 										{
 											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFpH/qw5tqrFcs=",
+											"_parent": {
+												"$ref": "AAAAAAFoLmAgYqfh20s="
+											},
+											"model": {
+												"$ref": "AAAAAAFpH/qw09qo59M="
+											},
+											"font": "Arial;13;0",
+											"left": 101,
+											"top": 162,
+											"width": 143,
+											"height": 13,
+											"text": "+PLZ",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
 											"_id": "AAAAAAFoySR9ACib02Q=",
 											"_parent": {
 												"$ref": "AAAAAAFoLmAgYqfh20s="
@@ -1547,7 +1564,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 101,
-											"top": 162,
+											"top": 177,
 											"width": 143,
 											"height": 13,
 											"text": "-Ort",
@@ -1564,7 +1581,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 101,
-											"top": 177,
+											"top": 192,
 											"width": 143,
 											"height": 13,
 											"text": "-Land",
@@ -1581,10 +1598,27 @@
 											},
 											"font": "Arial;13;0",
 											"left": 101,
-											"top": 192,
+											"top": 207,
 											"width": 143,
 											"height": 13,
 											"text": "-Telefonnummer",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFpH/rtSdyu6NM=",
+											"_parent": {
+												"$ref": "AAAAAAFoLmAgYqfh20s="
+											},
+											"model": {
+												"$ref": "AAAAAAFpH/rtGNyr7I0="
+											},
+											"font": "Arial;13;0",
+											"left": 101,
+											"top": 222,
+											"width": 143,
+											"height": 13,
+											"text": "+E-Mail",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1598,7 +1632,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 101,
-											"top": 207,
+											"top": 237,
 											"width": 143,
 											"height": 13,
 											"text": "-Geburtsdatum",
@@ -1609,7 +1643,7 @@
 									"left": 96,
 									"top": 97,
 									"width": 153,
-									"height": 128
+									"height": 158
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -1632,7 +1666,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 101,
-											"top": 230,
+											"top": 260,
 											"width": 143,
 											"height": 13,
 											"text": "+KundeAnlegen()",
@@ -1649,7 +1683,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 101,
-											"top": 245,
+											"top": 275,
 											"width": 143,
 											"height": 13,
 											"text": "+KundeLoeschen()",
@@ -1666,7 +1700,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 101,
-											"top": 260,
+											"top": 290,
 											"width": 143,
 											"height": 13,
 											"text": "+KundeAnpassen()",
@@ -1675,7 +1709,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 96,
-									"top": 225,
+									"top": 255,
 									"width": 153,
 									"height": 53
 								},
@@ -1717,7 +1751,7 @@
 							"left": 96,
 							"top": 72,
 							"width": 153,
-							"height": 206,
+							"height": 236,
 							"nameCompartment": {
 								"$ref": "AAAAAAFoLmAgYqfce/U="
 							},
@@ -1754,8 +1788,8 @@
 										"$ref": "AAAAAAFoLmSGcKid+24="
 									},
 									"font": "Arial;13;0",
-									"left": 190,
-									"top": 289,
+									"left": 191,
+									"top": 305,
 									"width": 36,
 									"height": 13,
 									"alpha": 1.5978166194291619,
@@ -1777,8 +1811,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 201,
-									"top": 290,
+									"left": 202,
+									"top": 306,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -1798,8 +1832,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 157,
-									"top": 292,
+									"left": 158,
+									"top": 307,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -1819,8 +1853,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 180,
-									"top": 297,
+									"left": 181,
+									"top": 327,
 									"width": 14.82177734375,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -1842,8 +1876,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 200,
-									"top": 299,
+									"left": 201,
+									"top": 330,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -1863,7 +1897,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 157,
-									"top": 293,
+									"top": 323,
 									"width": 7.22998046875,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -1885,8 +1919,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 170,
-									"top": 286,
+									"left": 171,
+									"top": 287,
 									"width": 34.328125,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -1907,7 +1941,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 200,
+									"left": 201,
 									"top": 284,
 									"height": 13,
 									"alpha": -0.7853981633974483,
@@ -1926,7 +1960,7 @@
 										"$ref": "AAAAAAFoLmSGcKifge4="
 									},
 									"font": "Arial;13;0",
-									"left": 149,
+									"left": 150,
 									"top": 291,
 									"width": 20,
 									"height": 13,
@@ -1974,7 +2008,7 @@
 								"$ref": "AAAAAAFoLmAgYqfbPlI="
 							},
 							"lineStyle": 1,
-							"points": "172:278;173:319",
+							"points": "173:308;173:319",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFoLmSGcaiiI38="
@@ -3202,7 +3236,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 58,
-									"top": 149,
+									"top": 152,
 									"width": 14.82177734375,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -3224,8 +3258,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 59,
-									"top": 160,
+									"left": 57,
+									"top": 163,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -3244,8 +3278,8 @@
 										"$ref": "AAAAAAFoLnAiKrNr9No="
 									},
 									"font": "Arial;13;0",
-									"left": 75,
-									"top": 124,
+									"left": 77,
+									"top": 128,
 									"width": 7.22998046875,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -3356,7 +3390,7 @@
 								"$ref": "AAAAAAFoLmAgYqfbPlI="
 							},
 							"lineStyle": 1,
-							"points": "95:149;32:128;32:648;95:668",
+							"points": "95:155;32:128;32:648;95:668",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFoLnAiK7NvEuM="
@@ -3822,9 +3856,9 @@
 										"$ref": "AAAAAAFoyRws/xT+994="
 									},
 									"font": "Arial;13;0",
-									"left": 1113,
+									"left": 1112,
 									"top": 422,
-									"width": 19.5126953125,
+									"width": 20,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -4012,7 +4046,8 @@
 								"$ref": "AAAAAAFoLlJDv6Ta5X0="
 							},
 							"name": "FahrzeugID",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4687,7 +4722,16 @@
 								"$ref": "AAAAAAFoLmAgYafZkFk="
 							},
 							"name": "Strasse",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFpH/qw09qo59M=",
+							"_parent": {
+								"$ref": "AAAAAAFoLmAgYafZkFk="
+							},
+							"name": "PLZ"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4696,7 +4740,8 @@
 								"$ref": "AAAAAAFoLmAgYafZkFk="
 							},
 							"name": "Ort",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4705,7 +4750,8 @@
 								"$ref": "AAAAAAFoLmAgYafZkFk="
 							},
 							"name": "Land",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4714,7 +4760,16 @@
 								"$ref": "AAAAAAFoLmAgYafZkFk="
 							},
 							"name": "Telefonnummer",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFpH/rtGNyr7I0=",
+							"_parent": {
+								"$ref": "AAAAAAFoLmAgYafZkFk="
+							},
+							"name": "E-Mail"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4770,7 +4825,8 @@
 								"$ref": "AAAAAAFoyRn9kgzJHuA="
 							},
 							"name": "SchadenID",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4779,7 +4835,8 @@
 								"$ref": "AAAAAAFoyRn9kgzJHuA="
 							},
 							"name": "Fahrzeug",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -4788,7 +4845,8 @@
 								"$ref": "AAAAAAFoyRn9kgzJHuA="
 							},
 							"name": "Beschreibung",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					]
 				}
@@ -5294,6 +5352,23 @@
 									"subViews": [
 										{
 											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFpH+nlPAi7iU4=",
+											"_parent": {
+												"$ref": "AAAAAAFoSBEkpzJ8MR0="
+											},
+											"model": {
+												"$ref": "AAAAAAFoyR2GXBk/cvM="
+											},
+											"font": "Arial;13;0",
+											"left": 914,
+											"top": 376,
+											"width": 143,
+											"height": 13,
+											"text": "-FahrzeugID",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
 											"_id": "AAAAAAFoSDMTcrSF58c=",
 											"_parent": {
 												"$ref": "AAAAAAFoSBEkpzJ8MR0="
@@ -5303,7 +5378,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 914,
-											"top": 376,
+											"top": 391,
 											"width": 143,
 											"height": 13,
 											"text": "-Kennzeichen",
@@ -5320,7 +5395,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 914,
-											"top": 391,
+											"top": 406,
 											"width": 143,
 											"height": 13,
 											"text": "-Marke",
@@ -5337,7 +5412,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 914,
-											"top": 406,
+											"top": 421,
 											"width": 143,
 											"height": 13,
 											"text": "-Modell",
@@ -5354,7 +5429,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 914,
-											"top": 421,
+											"top": 436,
 											"width": 143,
 											"height": 13,
 											"text": "-Fahrzeugklasse",
@@ -6687,7 +6762,41 @@
 											"top": 173,
 											"width": 143,
 											"height": 13,
-											"text": "-Adresse",
+											"text": "-Strasse",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFpH+nlQgi+YKk=",
+											"_parent": {
+												"$ref": "AAAAAAFoSBEkqTKkw7o="
+											},
+											"model": {
+												"$ref": "AAAAAAFoySR8ySiYBqQ="
+											},
+											"font": "Arial;13;0",
+											"left": 154,
+											"top": 188,
+											"width": 143,
+											"height": 13,
+											"text": "-Ort",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFpH+nlQgjBsbc=",
+											"_parent": {
+												"$ref": "AAAAAAFoSBEkqTKkw7o="
+											},
+											"model": {
+												"$ref": "AAAAAAFoySQyIiYC4Mo="
+											},
+											"font": "Arial;13;0",
+											"left": 154,
+											"top": 203,
+											"width": 143,
+											"height": 13,
+											"text": "-Land",
 											"horizontalAlignment": 0
 										},
 										{
@@ -6701,10 +6810,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 154,
-											"top": 188,
+											"top": 218,
 											"width": 143,
 											"height": 13,
-											"text": "-Nationalität",
+											"text": "-Telefonnummer",
 											"horizontalAlignment": 0
 										},
 										{
@@ -6718,7 +6827,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 154,
-											"top": 203,
+											"top": 233,
 											"width": 143,
 											"height": 13,
 											"text": "-Geburtsdatum",
@@ -6729,7 +6838,7 @@
 									"left": 149,
 									"top": 123,
 									"width": 153,
-									"height": 98
+									"height": 128
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -6752,7 +6861,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 154,
-											"top": 226,
+											"top": 256,
 											"width": 143,
 											"height": 13,
 											"text": "+KundeAnlegen()",
@@ -6769,7 +6878,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 154,
-											"top": 241,
+											"top": 271,
 											"width": 143,
 											"height": 13,
 											"text": "+KundeLoeschen()",
@@ -6786,7 +6895,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 154,
-											"top": 256,
+											"top": 286,
 											"width": 143,
 											"height": 13,
 											"text": "+KundeAnpassen()",
@@ -6795,7 +6904,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 149,
-									"top": 221,
+									"top": 251,
 									"width": 153,
 									"height": 53
 								},
@@ -8702,6 +8811,23 @@
 									"subViews": [
 										{
 											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFpH+nlSwjW6BY=",
+											"_parent": {
+												"$ref": "AAAAAAFoSBsrSUVJUOA="
+											},
+											"model": {
+												"$ref": "AAAAAAFoyR2GXBk/cvM="
+											},
+											"font": "Arial;13;0",
+											"left": 893,
+											"top": 358,
+											"width": 143,
+											"height": 13,
+											"text": "-FahrzeugID",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
 											"_id": "AAAAAAFoSCGVqWF7MAM=",
 											"_parent": {
 												"$ref": "AAAAAAFoSBsrSUVJUOA="
@@ -8711,7 +8837,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 893,
-											"top": 358,
+											"top": 373,
 											"width": 143,
 											"height": 13,
 											"text": "-Kennzeichen",
@@ -8728,7 +8854,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 893,
-											"top": 373,
+											"top": 388,
 											"width": 143,
 											"height": 13,
 											"text": "-Marke",
@@ -8745,7 +8871,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 893,
-											"top": 388,
+											"top": 403,
 											"width": 143,
 											"height": 13,
 											"text": "-Modell",
@@ -8762,7 +8888,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 893,
-											"top": 403,
+											"top": 418,
 											"width": 143,
 											"height": 13,
 											"text": "-Fahrzeugklasse",
@@ -10095,7 +10221,41 @@
 											"top": 131,
 											"width": 143,
 											"height": 13,
-											"text": "-Adresse",
+											"text": "-Strasse",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFpH+nlUAjZmOw=",
+											"_parent": {
+												"$ref": "AAAAAAFoSBsrSkVxi9E="
+											},
+											"model": {
+												"$ref": "AAAAAAFoySR8ySiYBqQ="
+											},
+											"font": "Arial;13;0",
+											"left": 122,
+											"top": 146,
+											"width": 143,
+											"height": 13,
+											"text": "-Ort",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFpH+nlUQjcMIs=",
+											"_parent": {
+												"$ref": "AAAAAAFoSBsrSkVxi9E="
+											},
+											"model": {
+												"$ref": "AAAAAAFoySQyIiYC4Mo="
+											},
+											"font": "Arial;13;0",
+											"left": 122,
+											"top": 161,
+											"width": 143,
+											"height": 13,
+											"text": "-Land",
 											"horizontalAlignment": 0
 										},
 										{
@@ -10109,10 +10269,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 122,
-											"top": 146,
+											"top": 176,
 											"width": 143,
 											"height": 13,
-											"text": "-Nationalität",
+											"text": "-Telefonnummer",
 											"horizontalAlignment": 0
 										},
 										{
@@ -10126,7 +10286,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 122,
-											"top": 161,
+											"top": 191,
 											"width": 143,
 											"height": 13,
 											"text": "-Geburtsdatum",
@@ -10137,7 +10297,7 @@
 									"left": 117,
 									"top": 81,
 									"width": 153,
-									"height": 98
+									"height": 128
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -10160,7 +10320,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 122,
-											"top": 184,
+											"top": 214,
 											"width": 143,
 											"height": 13,
 											"text": "+KundeAnlegen()",
@@ -10177,7 +10337,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 122,
-											"top": 199,
+											"top": 229,
 											"width": 143,
 											"height": 13,
 											"text": "+KundeLoeschen()",
@@ -10194,7 +10354,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 122,
-											"top": 214,
+											"top": 244,
 											"width": 143,
 											"height": 13,
 											"text": "+KundeAnpassen()",
@@ -10203,7 +10363,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 117,
-									"top": 179,
+									"top": 209,
 									"width": 153,
 									"height": 53
 								},

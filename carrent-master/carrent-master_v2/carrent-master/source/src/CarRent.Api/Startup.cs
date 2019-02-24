@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using CarRent.Api.CarManagement.Domain;
 using CarRent.Api.CarManagement.Persistence;
+using CarRent.Api.CustomerManagement.BusinessLogic;
+using CarRent.Api.CustomerManagement.Persistence;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -31,7 +33,9 @@ namespace CarRent.Api
             services.AddLogging(lb => lb.AddConsole());
             services.AddTransient<ICarService, CarService>();
             services.AddTransient<ICarRepository, MySqlCarRepository>(sp => new MySqlCarRepository(Configuration.GetConnectionString("Marina")));
-            
+            services.AddTransient<ICustomerService, CustomerService>();
+            services.AddTransient<ICustomerRepository, MySqlCustomerRepository>(sp => new MySqlCustomerRepository(Configuration.GetConnectionString("Marina")));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

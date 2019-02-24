@@ -9,11 +9,13 @@ CREATE TABLE Customer
 (
 	customer_id INT AUTO_INCREMENT
     ,firstname VARCHAR(42) NOT NULL
-    ,lastname VARCHAR(42) NOT NULL
+    ,surname VARCHAR(42) NOT NULL
     ,street VARCHAR(255) NOT NULL
+    ,zip VARCHAR(10) NOT NULL
     ,town VARCHAR(42) NOT NULL
     ,country VARCHAR(42) NOT NULL
-    ,phonenumber VARCHAR(42) NOT NULL
+    ,phone VARCHAR(42) NOT NULL
+    ,mail VARCHAR(255) NOT NULL
     ,birthdate DATETIME NOT NULL
     
     ,PRIMARY KEY(customer_id)

@@ -70,7 +70,7 @@ namespace CarRent.Api.CarManagement.Persistence
             _mySqlConnection.Close();
         }
 
-
+        //todo: Allgemeiner Push für alle Attribute schreiben.
         public void ReserveCar(Car car)
         {
             _mySqlConnection.Open();
