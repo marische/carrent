@@ -81,6 +81,16 @@ namespace CarRent.Api.CarManagement.Persistence
             _mySqlConnection.Close();
         }
 
+        public void DeleteCar(int id)
+        {
+            _mySqlConnection.Open();
+
+            var command = _mySqlConnection.CreateCommand();
+            command.CommandText = "DELETE FROM car WHERE car_id = " + id + ";";
+            command.ExecuteNonQuery();
+            _mySqlConnection.Close();
+        }
+
 
     }
 }

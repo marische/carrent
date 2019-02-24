@@ -28,5 +28,10 @@ namespace CarRent.Api.CarManagement.Domain
         {
             carRepository.ReserveCar(car);
         }
+
+        public void DeleteCar(int id)
+        {
+            carRepository.DeleteCar(id);
+        }
     }
 }
