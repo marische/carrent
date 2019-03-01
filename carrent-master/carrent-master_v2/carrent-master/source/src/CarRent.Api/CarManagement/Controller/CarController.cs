@@ -52,7 +52,8 @@ namespace CarRent.Api.Controllers
                 dto[i].Licenseplate,
                 dto[i].Brand,
                 dto[i].Model,
-                dto[i].Carclass
+                dto[i].Carclass,
+                dto[i].Occupied
                 );
                 
                 carService.writeCarIntoDB(car);
@@ -67,7 +68,7 @@ namespace CarRent.Api.Controllers
          * 
          * PUT: api/Car/id
          * */
-        [HttpPut("{id}")]
+        [HttpPut]
         public void Put([FromBody] IReadOnlyList<CarDto> dto)
         {
             for (var i = 0; i < dto.Count; i++)
@@ -78,7 +79,8 @@ namespace CarRent.Api.Controllers
                 dto[i].Licenseplate,
                 dto[i].Brand,
                 dto[i].Model,
-                dto[i].Carclass
+                dto[i].Carclass,
+                dto[i].Occupied
                 );
 
                 if (dto[i].Occupied == true)
@@ -86,7 +88,7 @@ namespace CarRent.Api.Controllers
                     Console.WriteLine("Car already occupied");
                 }
 
-                carService.ReserveCar(car);
+                carService.UpdateCar(car);
 
             }
         }

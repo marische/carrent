@@ -24,9 +24,9 @@ namespace CarRent.Api.CarManagement.Domain
             carRepository.writeCarIntoDB(car);
         }
 
-        public void ReserveCar(Car car)
+        public void UpdateCar(Car car)
         {
-            carRepository.ReserveCar(car);
+            carRepository.UpdateCar(car);
         }
 
         public void DeleteCar(int id)

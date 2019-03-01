@@ -16,6 +16,7 @@ namespace CarRent.Api.CarManagement.Persistence
         String brand;
         String model;
         int carclass;
+        bool occupied;
 
         public MySqlCarRepository(string connectionString)
         {
@@ -43,10 +44,11 @@ namespace CarRent.Api.CarManagement.Persistence
                             brand = reader[2].ToString();
                             model = reader[3].ToString();
                             carclass = Convert.ToInt32(reader[4]);
+                            occupied = Convert.ToBoolean(reader[5]);
                         
                         
                     }
-                    Car c = new Car(car_id, licenseplate, brand, model, carclass); //carclass ist int
+                    Car c = new Car(car_id, licenseplate, brand, model, carclass, occupied); //carclass ist int
                     carlist.Add(c);
                 }
                 reader.Close();
@@ -71,13 +73,23 @@ namespace CarRent.Api.CarManagement.Persistence
         }
 
         //todo: Allgemeiner Push für alle Attribute schreiben.
-        public void ReserveCar(Car car)
+        public void UpdateCar(Car car)
         {
             _mySqlConnection.Open();
 
             var command = _mySqlConnection.CreateCommand();
-            command.CommandText = "UPDATE car SET occupied = true WHERE car_id = " + car.Car_id + ";";
+            
+            command.CommandText = "UPDATE car SET licenseplate = '" + car.Licenseplate + "' WHERE car_id = " + car.Car_id + ";";
             command.ExecuteNonQuery();
+            command.CommandText = "UPDATE car SET brand = '" + car.Brand + "' WHERE car_id = " + car.Car_id + ";";
+            command.ExecuteNonQuery();
+            command.CommandText = "UPDATE car SET model = '" + car.Model + "' WHERE car_id = " + car.Car_id + ";";
+            command.ExecuteNonQuery();
+            command.CommandText = "UPDATE car SET occupied = " + car.Occupied + " WHERE car_id = " + car.Car_id + ";";
+            command.ExecuteNonQuery();
+
+
+
             _mySqlConnection.Close();
         }
 

@@ -14,14 +14,14 @@ namespace CarRent.Api.CarManagement.Domain
         private readonly int carclass;
         private readonly bool occupied;
 
-        public Car(int car_id, string licenseplate, string brand, string model, int carclass)
+        public Car(int car_id, string licenseplate, string brand, string model, int carclass, bool occupied)
         {
             this.car_id = car_id;
             this.licenseplate = licenseplate;
             this.brand = brand;
             this.model = model;
             this.carclass = carclass;
-            occupied = false;
+            this.occupied = occupied;
         }
 
         public int Car_id => car_id;
