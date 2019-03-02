@@ -1,0 +1,56 @@
+C:\Users\Daniel\Downloads\carrent-master (2)\carrent-master\carrent-master\source\src\CarRent.Api\bin\Debug\netcoreapp2.1\CarRent.Api.deps.json
+C:\Users\Daniel\Downloads\carrent-master (2)\carrent-master\carrent-master\source\src\CarRent.Api\bin\Debug\netcoreapp2.1\CarRent.Api.runtimeconfig.json
+C:\Users\Daniel\Downloads\carrent-master (2)\carrent-master\carrent-master\source\src\CarRent.Api\bin\Debug\netcoreapp2.1\CarRent.Api.runtimeconfig.dev.json
+C:\Users\Daniel\Downloads\carrent-master (2)\carrent-master\carrent-master\source\src\CarRent.Api\bin\Debug\netcoreapp2.1\CarRent.Api.dll
+C:\Users\Daniel\Downloads\carrent-master (2)\carrent-master\carrent-master\source\src\CarRent.Api\bin\Debug\netcoreapp2.1\CarRent.Api.pdb
+C:\Users\Daniel\Downloads\carrent-master (2)\carrent-master\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.csprojAssemblyReference.cache
+C:\Users\Daniel\Downloads\carrent-master (2)\carrent-master\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Downloads\carrent-master (2)\carrent-master\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.RazorAssemblyInfo.cache
+C:\Users\Daniel\Downloads\carrent-master (2)\carrent-master\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.RazorAssemblyInfo.cs
+C:\Users\Daniel\Downloads\carrent-master (2)\carrent-master\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.AssemblyInfoInputs.cache
+C:\Users\Daniel\Downloads\carrent-master (2)\carrent-master\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.AssemblyInfo.cs
+C:\Users\Daniel\Downloads\carrent-master (2)\carrent-master\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.RazorTargetAssemblyInfo.cache
+C:\Users\Daniel\Downloads\carrent-master (2)\carrent-master\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.dll
+C:\Users\Daniel\Downloads\carrent-master (2)\carrent-master\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.pdb
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master\carrent-master\source\src\CarRent.Api\bin\Debug\netcoreapp2.1\CarRent.Api.deps.json
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master\carrent-master\source\src\CarRent.Api\bin\Debug\netcoreapp2.1\CarRent.Api.runtimeconfig.json
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master\carrent-master\source\src\CarRent.Api\bin\Debug\netcoreapp2.1\CarRent.Api.runtimeconfig.dev.json
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master\carrent-master\source\src\CarRent.Api\bin\Debug\netcoreapp2.1\CarRent.Api.dll
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master\carrent-master\source\src\CarRent.Api\bin\Debug\netcoreapp2.1\CarRent.Api.pdb
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.csprojAssemblyReference.cache
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.csproj.CoreCompileInputs.cache
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.RazorAssemblyInfo.cache
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.RazorAssemblyInfo.cs
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.AssemblyInfoInputs.cache
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.AssemblyInfo.cs
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.RazorTargetAssemblyInfo.cache
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.dll
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.pdb
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master_v2\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.csprojAssemblyReference.cache
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master_v2\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.csproj.CoreCompileInputs.cache
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master_v2\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.RazorAssemblyInfo.cache
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master_v2\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.RazorAssemblyInfo.cs
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master_v2\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.AssemblyInfoInputs.cache
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master_v2\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.AssemblyInfo.cs
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master_v2\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.dll
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master_v2\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.pdb
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master_v2\carrent-master\source\src\CarRent.Api\bin\Debug\netcoreapp2.1\CarRent.Api.deps.json
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master_v2\carrent-master\source\src\CarRent.Api\bin\Debug\netcoreapp2.1\CarRent.Api.runtimeconfig.json
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master_v2\carrent-master\source\src\CarRent.Api\bin\Debug\netcoreapp2.1\CarRent.Api.runtimeconfig.dev.json
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master_v2\carrent-master\source\src\CarRent.Api\bin\Debug\netcoreapp2.1\CarRent.Api.dll
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master_v2\carrent-master\source\src\CarRent.Api\bin\Debug\netcoreapp2.1\CarRent.Api.pdb
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\carrent-master\carrent-master_v2\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.RazorTargetAssemblyInfo.cache
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\Abgabe\carrent-master\source\src\CarRent.Api\bin\Debug\netcoreapp2.1\CarRent.Api.deps.json
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\Abgabe\carrent-master\source\src\CarRent.Api\bin\Debug\netcoreapp2.1\CarRent.Api.runtimeconfig.json
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\Abgabe\carrent-master\source\src\CarRent.Api\bin\Debug\netcoreapp2.1\CarRent.Api.runtimeconfig.dev.json
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\Abgabe\carrent-master\source\src\CarRent.Api\bin\Debug\netcoreapp2.1\CarRent.Api.dll
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\Abgabe\carrent-master\source\src\CarRent.Api\bin\Debug\netcoreapp2.1\CarRent.Api.pdb
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\Abgabe\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.csprojAssemblyReference.cache
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\Abgabe\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.csproj.CoreCompileInputs.cache
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\Abgabe\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.RazorAssemblyInfo.cache
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\Abgabe\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.RazorAssemblyInfo.cs
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\Abgabe\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.AssemblyInfoInputs.cache
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\Abgabe\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.AssemblyInfo.cs
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\Abgabe\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.RazorTargetAssemblyInfo.cache
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\Abgabe\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.dll
+C:\Users\maris\OneDrive\zbw\software_architektur\carrent\Abgabe\carrent-master\source\src\CarRent.Api\obj\Debug\netcoreapp2.1\CarRent.Api.pdb

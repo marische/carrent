@@ -32,7 +32,7 @@ namespace CarRent.Api
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddLogging(lb => lb.AddConsole());
             services.AddTransient<ICarService, CarService>();
-            services.AddTransient<ICarRepository, MySqlCarRepository>(sp => new MySqlCarRepository(Configuration.GetConnectionString("Daniel")));
+            services.AddTransient<ICarRepository, MySqlCarRepository>(sp => new MySqlCarRepository(Configuration.GetConnectionString("Marina")));
             services.AddTransient<ICustomerService, CustomerService>();
             services.AddTransient<ICustomerRepository, MySqlCustomerRepository>(sp => new MySqlCustomerRepository(Configuration.GetConnectionString("Marina")));
 
