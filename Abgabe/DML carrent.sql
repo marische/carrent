@@ -50,4 +50,8 @@ VALUES
 	('Anna', 'Meier', 'Hauptstrasse 10', '8000', 'Zürich', 'CH', '079 333 44 66', 'info@meier.ch', current_date())
 ;
 
+INSERT INTO Contract (state, fk_customer_id, fk_carclass_id, startdate, enddate, contractdate, totalamount)
+VALUES
+	('open', '1', '1', '2018-04-01', '2018-04-10', '2018-03-07', 1200)
+;
 

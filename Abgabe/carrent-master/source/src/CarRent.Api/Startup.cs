@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using CarRent.Api.CarManagement.Domain;
 using CarRent.Api.CarManagement.Persistence;
+using CarRent.Api.ContractManagement.BusinessLogic;
+using CarRent.Api.ContractManagement.Persistence;
 using CarRent.Api.CustomerManagement.BusinessLogic;
 using CarRent.Api.CustomerManagement.Persistence;
 using Microsoft.AspNetCore.Builder;
@@ -33,6 +35,8 @@ namespace CarRent.Api
             services.AddLogging(lb => lb.AddConsole());
             services.AddTransient<ICarService, CarService>();
             services.AddTransient<ICarRepository, MySqlCarRepository>(sp => new MySqlCarRepository(Configuration.GetConnectionString("Marina")));
+            services.AddTransient<IContractRepository, MySqlContractRepository>(sp => new MySqlContractRepository(Configuration.GetConnectionString("Marina")));
+            services.AddTransient<IContractService, ContractService>();
             services.AddTransient<ICustomerService, CustomerService>();
             services.AddTransient<ICustomerRepository, MySqlCustomerRepository>(sp => new MySqlCustomerRepository(Configuration.GetConnectionString("Marina")));
 
